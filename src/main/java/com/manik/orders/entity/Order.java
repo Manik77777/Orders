@@ -29,4 +29,5 @@ public class Order {
     private LocalDateTime updatedAt;
     private String remarks;
     private String comments;
+    private String mobile;
 }
