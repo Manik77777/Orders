@@ -27,6 +27,7 @@ public class Order {
     @LastModifiedDate
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime updatedAt;
+    private String mobile;
     private String remarks;
     private String comments;
 }
